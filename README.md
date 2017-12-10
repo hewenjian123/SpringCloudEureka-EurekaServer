@@ -1,2 +1,2 @@
-# springCloud-example-
+# springCloud-example
 Eureka-Server
