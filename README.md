@@ -6,7 +6,7 @@ Eureka架构
 eureka 架构
 
 图4-3 Eureka架构图
-http://itmuch.com/images/4.4.png
+![Image text](https://raw.githubusercontent.com/hewenjian123/SpringCloudEureka-EurekaServer/master/images/eureka_architecture.png)
 图4-3是来自Eureka官方的架构图，大致描述了Eureka集群的工作过程。图中包含的组件非常多，可能比较难以理解，我们用通俗易懂的语言解释一下：
 
 Application Service 相当于本书中的服务提供者，Application Client相当于本书中的服务消费者；
