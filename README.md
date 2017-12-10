@@ -20,3 +20,6 @@ Eureka架构图
   - 每个Eureka Server同时也是Eureka Client，多个Eureka Server之间通过复制的方式完成服务注册表的同步；  
   - Eureka Client会缓存Eureka Server中的信息。即使所有的Eureka Server节点都宕掉，服务消费者依然可以使用缓存中的信息找到服务提供者。  
   综上，Eureka通过心跳检测、健康检查和客户端缓存等机制，提高了系统的灵活性、可伸缩性和可用性
+# Build
+1.工程构建成功后，访问地址为:
+  http://127.0.0.1:1111/
