@@ -1,8 +1,7 @@
-
 # SpringCloudEureka-EurekaServer
 1. Eureka是Netflix开发的服务发现组件，本身是一个基于REST的服务。Spring Cloud将它集成在其子项目spring-cloud-netflix中，以实现Spring Cloud的服务发现功能。目前Eureka 项目相当活跃，代码更新相当频繁，目前最新的版本是1.5.9。Eureka 2.0也在紧锣密鼓地开发中，2.0将会带来更强的功能和更好的扩展性，但是由于还没有Release，故而不作讨论。 
 
-2. Eureka的官方文档对regin、zone几乎没有提及。因此，在分析Eureka原理之前，我们先来了解一下region、zone、Eureka集群三者的关系:region和zone（或者Availability Zone）均是AWS的概念。在非AWS环境下，我们可以简单地将region理解为Eureka集群，zone理解成机房。
+2. Eureka的官方文档对regin、zone几乎没有提及。因此，在分析Eureka原理之前，我们先来了解一下region、zone、Eureka集群三者的关系:region和zone（或者Availability Zone）均是AWS的概念。在非AWS环境下，我们可以简单地将region理解为Eureka集群，zone理解成机房。  
 ![Image text](https://raw.githubusercontent.com/hewenjian123/SpringCloudEureka-EurekaServer/master/images/aws.png)
 
 一个Eureka集群被部署在了zone1机房和zone2机房中。对region和zone感兴趣的读者可前往http://blog.csdn.net/awschina/article/details/17639191 扩展阅读。Spring Cloud中默认的region是us-east-1
